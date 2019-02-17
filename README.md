@@ -1,9 +1,13 @@
 ## Setting up a test file: ##
 1. Create a new Ruby file for your test(s)
 2. Require “test/unit” at the top of your file
+
+	<img src="images/image4.png" width="20%">
 3. Create a class that inherits from Test::Unit::TestCase
+
+	<img src="images/image2.png" width="20%">
 4. [Optional] Add parameters to your test class
-	- You might be used to creating instance variables within your classes in Ruby, perhaps by using an “initialize” method. However, to create instance variables in a subclass of TestCase, you must define a “setup” method, as shown below:
+	- You might be used to creating instance variables within your classes in Ruby, perhaps by using the “initialize” method. However, to create instance variables in a subclass of TestCase, you must define a “setup” method, as shown below:
 
 ## Create tests: ##
 1. Make a testing method in your class
