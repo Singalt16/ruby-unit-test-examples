@@ -27,4 +27,4 @@
 1. Simply run your script as you would any other Ruby script and the Test::Unit framework will do the rest.
 See below for an example of the Test::Unit output
 
-	<img src="images/image2.jpg" width="40%">
+	<img src="images/image2.jpg" width="75%">
