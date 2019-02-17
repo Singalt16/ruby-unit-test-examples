@@ -8,11 +8,9 @@
 ## Create tests: ##
 1. Make a testing method in your class
 	- It is good practice to start the name of your method with the word “test”.
-	
 2. Add assertions to your test method
 	- These assert statements within your testing method will be your individual tests. 
 	- There are many different types of assert statements you can use. The following example tests if the result of get_num is  equal to 5:
-
 3. Create more test methods and assertion statements
 	- You can create as many test methods as you want, and put multiple assertion statements in each method, depending on what kind of testing you need to do. 
 
