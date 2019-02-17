@@ -15,6 +15,7 @@ def find_smallest(arr)
   min
 end
 
+#------------Test-Case-------------
 class TestCase1 < Test::Unit::TestCase
 
   def test_find_smallest
@@ -28,3 +29,4 @@ class TestCase1 < Test::Unit::TestCase
     end
   end
 end
+#----------------------------------
