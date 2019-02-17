@@ -1,4 +1,4 @@
-Setting up a test file:
+## Setting up a test file: ##
   1) Create a new Ruby file for your test(s)
   2) Require “test/unit” at the top of your file
 	3) Create a class that inherits from Test::Unit::TestCase
