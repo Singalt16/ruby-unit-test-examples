@@ -17,7 +17,7 @@
 		<img src="images/image7.png" width="20%">
 2. Add assertions to your test method
 	- These assert statements within your testing method will be your individual tests. 
-	- There are many different types of assert statements you can use. The following example tests if the result of get_num is  equal to 5:
+	- There are many different types of assert statements you can use. The following example tests if the result of get_num is equal to 5:
 	
 		<img src="images/image3.png" width="30%">
 3. Create more test methods and assertion statements
@@ -25,6 +25,6 @@
 
 ## Run your tests: ##
 1. Simply run your script as you would any other Ruby script and the Test::Unit framework will do the rest.
-See below for an example of the Test::Unit output
+See below for an example of the Test::Unit output, which shows that one of our tests has failed:
 
 	<img src="images/image2.jpg" width="75%">
