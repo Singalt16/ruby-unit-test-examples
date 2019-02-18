@@ -33,7 +33,7 @@ class TestCode < Test::Unit::TestCase
         assert_equal(-20, subtraction(@a, @b))
     end
     
-    def test_multiplication #Test multiplication functionality        
+    def test_multiplication #Test multiplication functionality - This test will fail        
         assert_equal(300, multiplication(@a, @b))
     end
 end
