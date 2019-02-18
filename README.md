@@ -28,3 +28,4 @@
 See below for an example of the Test::Unit output, which shows that one of our tests has failed:
 
 	<img src="images/image2.jpg" width="75%">
+As seen from the terminal output, we can see what value our assert statement expected versus the value it actually received. The specific assertion that failed is also pointed out in our code.
