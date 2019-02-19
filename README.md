@@ -11,7 +11,7 @@ This tutorial provides a hands-on exercise for learning how to perform unit test
 4. [Optional] Add parameters to your test class
 	- You might be used to creating instance variables within your classes in Ruby, perhaps by using the “initialize” method. However, to create instance variables in a subclass of TestCase, you must define a “setup” method, as shown below:
 	
-		<img src="images/image6.jpg" width="50%">
+		<img src="images/setup_method_nums.JPG" width="50%">
 ## Create tests: ##
 1. Make a testing method in your class
 	- It is good practice to start the name of your method with the word “test”.
