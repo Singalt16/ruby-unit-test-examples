@@ -34,10 +34,10 @@ To follow along, either download the 'exercise.rb' file, or create your own ruby
 	```ruby
 	class MyTestCase < Test::Unit::TestCase
 
-		def test_add
-			assert_equal 43, add(-20, 63)
-			assert_not_equal -19, add(0, 19)
-		end
+	  def test_add
+	    assert_equal 43, add(-20, 63)
+	    assert_not_equal -19, add(0, 19)
+	  end
 	end
 	```
 3. Create more test methods and assertion statements
@@ -45,15 +45,15 @@ To follow along, either download the 'exercise.rb' file, or create your own ruby
 	```ruby
 	class MyTestCase < Test::Unit::TestCase
 
-		def test_add
-			assert_equal 43, add(-20, 63)
-			assert_not_equal -19, add(0, 19)
-		end
+	  def test_add
+	    assert_equal 43, add(-20, 63)
+	    assert_not_equal -19, add(0, 19)
+	  end
 
-		def test_subtract
-			assert_equal 2, subtract(30, 28)
-			assert_not_equal -6, subtract(0, -6)
-		end
+	  def test_subtract
+	    assert_equal 2, subtract(30, 28)
+	    assert_not_equal -6, subtract(0, -6)
+	  end
 	end
 	```
 
