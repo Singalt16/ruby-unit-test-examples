@@ -12,13 +12,13 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	require 'test/unit'
 	require './exercise'
 	```
-3. Create a test case class
+## 3) Create your tests: ##
+1. Create a test case class
 
 	```ruby
 	class MyTestCase < Test::Unit::TestCase
 	```
-## 3) Create your tests: ##
-1. Add a test method to your test case
+2. Add a test method to your test case
 	- It is good practice to start the name of your method with the word “test”.
 
 	```ruby
@@ -29,7 +29,7 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	  end
 	end
 	```
-2. Add assertions to your test method. These assert statements within your testing method will be your individual tests.
+3. Add assertions to your test method. These assert statements within your testing method will be your individual tests.
 
 	```ruby
 	class MyTestCase < Test::Unit::TestCase
@@ -40,7 +40,7 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	  end
 	end
 	```
-3. Create more test methods and assertion statements
+4. Create more test methods and assertion statements
 
 	```ruby
 	class MyTestCase < Test::Unit::TestCase
