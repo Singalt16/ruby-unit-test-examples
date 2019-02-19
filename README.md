@@ -5,8 +5,8 @@ This tutorial provides a hands-on exercise for learning how to perform unit test
 To follow along, either download the 'exercise.rb' file, or use your own ruby file with functions that you wish to test.
 
 ## 2) Set up a test file: ##
-1. Create a new Ruby file for your test(s)
-2. Require test/unit at the top of your file, as well as the file with your functions
+1. Require test/unit at the top of your file, as well as the file with your functions
+	- This is all you need to do to use the Test::Unit framework -- it comes pre-installed with Ruby.
 
 	```ruby
 	require 'test/unit'
