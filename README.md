@@ -1,8 +1,8 @@
 # Ruby Unit Testing Tutorial #
 This tutorial provides a hands-on exercise for learning how to perform unit testing with the Test::Unit Ruby framework.
 
-## 1) Install sample file: ##
-To follow along, either download the 'exercise.rb' file, or create your own ruby file with functions that you wish to test.
+## 1) Get a sample file: ##
+To follow along, either download the 'exercise.rb' file, or use your own ruby file with functions that you wish to test.
 
 ## 2) Set up a test file: ##
 1. Create a new Ruby file for your test(s)
@@ -64,3 +64,5 @@ See below for an example of the Test::Unit output, which shows that one of our t
 	<img src="images/tutorial_output.png" width="75%">
 As seen from the terminal output, we can see what value our assert statement expected versus the value it actually received. The specific assertion that failed is also pointed out in our code.
 
+### More examples ###
+For more examples, check out the files in the 'examples' folder.
