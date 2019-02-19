@@ -58,7 +58,7 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	```
 
 ## 4) Run your tests: ##
-1. Simply run your test script as you would any other Ruby script and the Test::Unit framework will do the rest.
+Simply run your test script as you would any other Ruby script and the Test::Unit framework will do the rest.
 See below for an example of the Test::Unit output, which shows that one of our tests has failed:
 
 	<img src="images/tutorial_output.png" width="75%">
