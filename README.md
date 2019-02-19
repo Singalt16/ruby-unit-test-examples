@@ -1,3 +1,5 @@
+# Ruby Unit Testing Tutorial #
+This tutorial provides a hands-on exercise for learning how to perform unit testing with the Test::Unit Ruby framework.
 ## Setting up a test file: ##
 1. Create a new Ruby file for your test(s)
 2. Require “test/unit” at the top of your file
