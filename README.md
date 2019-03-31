@@ -56,6 +56,7 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	  end
 	end
 	```
+	\* The full code is in examples/exercise_test.rb
 
 Note: We have shown only one test method for the sake of this tutorial, but often test cases include multiple methods.
 
