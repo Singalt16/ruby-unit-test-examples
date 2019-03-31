@@ -57,6 +57,8 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	end
 	```
 
+Note: We have shown only one test method for the sake of this tutorial, but often test cases include multiple methods.
+
 ## 4) Run your tests: ##
 Simply run your test script as you would any other Ruby script and the Test::Unit framework will do the rest.
 See below for an example of the Test::Unit output, which shows that one of our tests has failed:
