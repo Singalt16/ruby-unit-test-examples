@@ -36,24 +36,23 @@ To follow along, either download the 'exercise.rb' file, or use your own ruby fi
 	class MyTestCase < Test::Unit::TestCase
 
 	  def test_add
+	    # Tests that the result of add is as expected
 	    assert_equal 43, add(-20, 63)
 	    assert_not_equal -19, add(0, 19)
-	  end
-	end
-	```
-4. Create more test methods and assertion statements
 
-	```ruby
-	class MyTestCase < Test::Unit::TestCase
+	    # Tests that the result of add when adding floats
+	    # is within 0.0001 of the expected
+	    assert_in_delta add(1.0324, 4.32), 5.3524, 0.0001
 
-	  def test_add
-	    assert_equal 43, add(-20, 63)
-	    assert_not_equal -19, add(0, 19)
-	  end
+	    # Tests that add raises an error when given non-numeric arguments
+	    assert_raise(ArgumentError) {
+	      add("5", 9)
+	    }
 
-	  def test_subtract
-	    assert_equal 2, subtract(30, 28)
-	    assert_not_equal -6, subtract(0, -6)
+	    # Tests that add does not raise an error when given numeric arguments
+	    assert_nothing_raised(ArgumentError) {
+	      add(9.4, 20)
+	    }
 	  end
 	end
 	```
